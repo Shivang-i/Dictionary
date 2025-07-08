@@ -43,10 +43,17 @@ The searched word is added to the recent history list (up to 5 items).
 📌 Conclusion
 This Dictionary Web App is a simple yet functional front-end project demonstrating how HTML, CSS, and JavaScript can be used together to build interactive, API-driven applications. It is ideal for those learning web development and looking to explore DOM manipulation, responsive design, and basic data handling in the browser.
 
-![image](https://github.com/user-attachments/assets/01c180e2-9c8c-44e1-b1ec-a94c01f09384)
+![image](https://github.com/user-attachments/assets/a7826310-4596-47e3-9d44-d9f9262b5f20)
 
-![image](https://github.com/user-attachments/assets/80646479-3ac9-465b-8423-5c26cceb14ef)
+![image](https://github.com/user-attachments/assets/7032f0d7-a45f-4ab1-b23a-6fbbac13d123)
 
-![image](https://github.com/user-attachments/assets/e7e26347-563b-4f41-8938-e9f6905498c0)
+![image](https://github.com/user-attachments/assets/ad3f7665-aee1-4cde-a51c-6310d25a009e)
+
+![image](https://github.com/user-attachments/assets/71928067-90f2-4a72-a8ae-32ecdd6fff88)
+
+![image](https://github.com/user-attachments/assets/4816d5d9-1cff-4597-b84e-23653417263a)
+
+![image](https://github.com/user-attachments/assets/821c57bc-1140-4e9d-affb-b7fc6fa39450)
+
 
 
