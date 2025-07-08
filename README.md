@@ -4,16 +4,11 @@ This is a responsive Dictionary Web Application built using HTML, CSS, and JavaS
 ✨ Features
 Responsive Design:
 The layout adapts smoothly to different screen sizes, making it user-friendly on mobile, tablet, and desktop devices.
-
 Word Search Functionality:
 Users can enter a word into the input field, and the app fetches data including:
-
 Definition
-
 Pronunciation
-
 Part of Speech
-
 Example Sentence
 
 Recent Searches Display:
@@ -24,20 +19,14 @@ Clean and minimal interface built with modern CSS for a pleasant user experience
 
 🔧 Technologies Used
 HTML – For structuring the content and elements.
-
 CSS – For styling and creating a responsive layout.
-
 JavaScript – For dynamic functionality such as fetching API data and managing recent searches.
 
 📚 How It Works
 A user types a word into the search input.
-
 JavaScript makes a request to a dictionary API (e.g., Free Dictionary API).
-
 The response includes the word’s pronunciation, meaning, part of speech, and example usage.
-
 This data is displayed neatly on the page.
-
 The searched word is added to the recent history list (up to 5 items).
 
 📌 Conclusion
