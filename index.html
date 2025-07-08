@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dictionary</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="stylesheet"href="Style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar ">
+            <div class="logo">Dictionary</div>
+           <div class="search-bar">
+             <input type="text" id="search-input"class="search-input box-transition " placeholder="Search the word....">
+             <button class="search-button box-transition">
+                <span class="search-text">Search</span>
+                <span class="search-icon" aria-hidden="true">🔍</span>
+            </button>
+           </div>
+        </nav>
+    </header>
+    <main>
+        <div class="maincard box-transition"id="maincard">
+           <h3 class="word">Hello</h3>
+           <br>
+           <p class="pronunciation">
+            N/A
+           </p>
+           <br>
+           <p class="Defination">1. "Hello!" or an equivalent greeting.
+1. To greet with "hello".
+1. A greeting (salutation) said when meeting someone or acknowledging someone’s arrival or presence.
+2. A greeting used when answering the telephone.
+3. A call for response if it is not clear if anyone is present or listening, or if a telephone conversation may have been disconnected.
+4. Used sarcastically to imply that the person addressed or referred to has done something the speaker or writer considers to be foolish.
+5. An expression of puzzlement or discovery.
+           </p>
+           <br>
+           <p class="partofspeech">noun, verb, interjection</p>
+           <br>
+           <p class="example">- Hello, everyone.
+- Hello? How may I help you?
+- Hello? Is anyone there?
+- You just tried to start your car with your cell phone. Hello?
+- Hello! What’s going on here?</p>
+           <br>
+            </div>
+        
+            <!-- recent search started -->
+             <!-- <div class="recentsearch">
+               <div class="headingBox"> <h4>Recent Search</h4></div>
+                <br>
+               <div class="contentBox ">
+                 <div class="recentsearchcard box-transition">
+                    <h6 class="recentword">word</h6>
+                    <p class="recentsearchdescription">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maiores provident quidem sint atque exercitationem architecto laborum, impedit magnam doloribus aperiam qui. Neque consectetur aspernatur at temporibus ex eveniet, quia labore.</p>
+                </div>
+                
+               </div>
+             </div> -->
+
+             <div class="recentsearch">
+  <div class="headingBox">
+    <h4>Recent Search</h4>
+  </div>
+  <br>
+  <div id="recentCardContainer" class="recentCardContainer">
+
+
+  </div> <!-- ✅ Dynamic cards will be inserted here -->
+</div>
+
+<!-- ✅ Template to clone cards -->
+<template id="recentSearchCardTemplate">
+  <!-- <div class="contentBox"> -->
+    <div class="recentsearchcard box-transition">
+      <h6 class="recentword">word</h6>
+      <p class="recentsearchdescription">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+      </p>
+    </div>
+  <!-- </div> -->
+</template>
+
+
+    </main>
+    <script src="Script.js"></script>
+</body>
+</html>
